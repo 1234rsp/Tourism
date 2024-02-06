@@ -1,0 +1,46 @@
+.bg-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    background-image: url("https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/ocean.jpg");
+    height: 100vh;
+    background-size: cover;
+}
+
+.tourism-card {
+    text-align: center;
+    background-color: white;
+    padding: 20px;
+    border-bottom-left-radius: 25px;
+    border-top-right-radius: 25px;
+    border-bottom-right-radius: 25px;
+    border-top-left-radius: 25px;
+
+}
+.main-heading {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 40px;
+    color: orange;
+}
+.paragraph {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: bold;
+    color: black;
+    padding: 8px;
+}
+.button {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-color: #25b1cc;
+    color: white;
+    border-radius: 25px;
+    height: 37px;
+    width: 140px;
+    border-width: 0px;
+
+}
+.button-green {
+    background-color: rgb(24, 216, 24);
+}
+.button-red {
+    background-color: crimson;
+}
